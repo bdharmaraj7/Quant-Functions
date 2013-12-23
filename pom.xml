@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.fivepebbles.AWSS3Backup</groupId>
-  <artifactId>AWSS3Backup</artifactId>
+  <groupId>com.fivepebbles.AWS-S3-Backup</groupId>
+  <artifactId>AWS-S3-Backup</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-  <name>AWSS3Backup</name>
+  <name>AWS-S3-Backup</name>
   <url>http://maven.apache.org</url>
   <description>
      Backs up files and/or folders from local drive to Amazon S3
