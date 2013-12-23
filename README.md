@@ -1,7 +1,7 @@
 AWS-S3-Backup
 =============
 
-This is a simple Java client that allows the user upload files to Amazon's S3. 
+This is a simple Java client that allows the user to upload files to Amazon's S3. 
 
 The process employs two files saved locally:
 
