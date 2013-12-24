@@ -25,7 +25,7 @@ You may choose to create/populate the setup files through another method of your
 Backup Process
 --------------
 
-(1) Once the two setup files are created, start the backup process by calling BackupMain (java BackupMain). 
+(1) Once the two setup files are created, start the backup process by calling BackupMain (java BackupMain).
 
 (2) All the files/folders listed in your s3files.xml will be uploaded to S3 against relevant bucket names mentioned in s3files.xml.
 
@@ -35,8 +35,11 @@ Maven Build
 -----------
 
 (1) Use the provided pom.xml to build the project.
+
 (2) A jar file named "AWS-S3-Backup-1.0.jar" will be created in the target folder.
+
 (3) Create the two setup files as explained above. The files (awskeys.json, s3files.xml) will be created in the target folder.
+
 (4) Start the backup process as: java -jar AWS-S3-Backup-1.0.jar
 
 
