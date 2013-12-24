@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s3backup>
+	<bucket name="bucket1.home">
+             <!-- file tag can hold file or folder names -->
+	     <file>/home</file>
+	</bucket>
+	<bucket name="bucket2.tech">
+	     <file>/home/tech/notes.docx</file>
+	     <file>/home/architecture</file>
+	     <file>/home/tech/linux/mappingdoc.PDF</file>
+	</bucket>
+	<bucket name="bucket3.personal">
+	     <file>/home/personal</file>
+        </bucket>
+</s3backup>
