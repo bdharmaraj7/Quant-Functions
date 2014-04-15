@@ -1,7 +1,7 @@
 JAX-WS-Client
 =============
 
-A secure JAX-WS client for the IBM System i/iSeries to connect to a web service through a proxy. 
+A JAX-WS client with SSL for the IBM System i/iSeries to connect to a web service through a proxy. 
 
 Using the WSDL, create standard client stubs.
 
