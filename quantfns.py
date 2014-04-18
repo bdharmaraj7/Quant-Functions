@@ -86,7 +86,7 @@ def bondprice(curr_price,mod_duration,convexity,basis_pt_chg):
     Arguments: curr_price: current price of bond
                mod_duration: Modified Duration
                convexity
-               basis_pt_chg: The chg in basis points for which the 
+               basis_pt_chg: The change in basis points for which the 
                              price needs to be estimated
     ''' 
     
