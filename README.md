@@ -9,7 +9,7 @@ easy-to-understand functions as much as possible.
 
 To begin with, there are two functions: 
     duration: calculates the Macaulay and Modified Durations.
-    bondprice: provides an estimated price for a security for given basis point change.
+    bondprice: provides an estimated price for a security for a given basis point change.
     
 More functions will be added periodically.
 
