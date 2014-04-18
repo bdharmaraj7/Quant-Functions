@@ -1,15 +1,15 @@
 =======
-JAX-WS-Client
+Quant-Functions
 =============
 
-A JAX-WS client with SSL for the IBM System i/iSeries to connect to a web service through a proxy. 
+Python functions for fixed-income pricing and risk management.
 
-Using the WSDL, create standard client stubs.
+This module has been created to provide functions that are useful in pricing and risk management of fixed-income securities. The goal is to break-down complex quantitative financial calculations into easy-to-understand functions as much as possible.
 
-Add BDClient.java as a wrapper around the calling iSeries program (RPG or CL). It can be instantiated and called from the iSeries. It will perform necessary data conversions both ways - received from the iSeries and returned to the iSeries. 
-BDClient.java retrieves SSL parameters from a Java Properties file.
+To begin with, there are two functions: duration: calculates the Macaulay and Modified Durations. bondprice: provides an estimated price for a security for a given basis point change.
 
-The file BDProxy.java will make the call to the remote service. This file will be part of the created stubs. It is included here just to show the additional code customizations that need to be done. Parameters required for accessing the web service are stored in a configuration file.
+More functions will be added periodically.
 
+A distribution (tar.gz) is available at: https://pypi.python.org/pypi/quantfns/1.0.0
 
 
